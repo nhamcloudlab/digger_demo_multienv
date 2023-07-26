@@ -18,7 +18,7 @@ jobs:
         uses: diggerhq/digger@develop
         with:
           setup-aws: true
-          role-to-assume: arn:aws:iam::947921843322:role/Digger
+          aws-role-to-assume: arn:aws:iam::947921843322:role/Digger
           aws-region: us-east-1
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
