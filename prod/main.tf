@@ -29,3 +29,7 @@ EOF
     tag-key = "tag-value"
   }
 }
+
+resource "null_resource" "test_prod22234" {
+
+}
