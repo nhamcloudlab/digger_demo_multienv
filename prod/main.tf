@@ -6,8 +6,8 @@ resource "null_resource" "test_prod2223" {
 
 }
 
-resource "aws_iam_role" "test_role2" {
-  name = "test_role2"
+resource "aws_iam_role" "test_role3" {
+  name = "test_role3"
 
   assume_role_policy = <<EOF
 {
